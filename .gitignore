@@ -1,6 +1,3 @@
-# Ignore compiled output
-*.dll
-
 # Ignore log files
 compile.log
 out.txt
@@ -12,9 +9,8 @@ out.txt
 *.sln
 *.csproj
 
-# Ignore decompilation tools and their binaries
+# Ignore decompilation tools
 tools/
 
-# But track reference assemblies
-!References/
-!References/**/*.dll
+# Ignore modified dlls
+out/

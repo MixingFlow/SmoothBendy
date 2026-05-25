@@ -1,8 +1,12 @@
-# Smooth Bendy Mod - Chapter 3 Blocker Fix
+# Smooth Bendy Mod - with MixingFlow fixes
 
-## How to modify Assembly-CSharp.dll using dnSpy
+## Installation
+Just go to the Releases tab on the right and download the DLLs and replace the DLLs in your game's directory at  
+`...\Bendy and the Ink Machine\Bendy and the Ink Machine_Data\Managed\`.
 
-1. Run `tools/dnSpy/dnSpy.exe` and open `Assembly-CSharp.dll`.
+## How to modify Assembly-CSharp.dll yourself using dnSpy
+
+1. Run `.../dnSpy/dnSpy.exe` and open `Assembly-CSharp.dll`.
 2. Locate the `CH3BridgeBlocker` class.
 3. Right-click inside `CH3BridgeBlocker` in the code viewer, select **Edit Class (C#)**, and add:
    ```csharp
@@ -35,4 +39,7 @@
    - **Close()**: Add `this.EnsureInitialized();` to the top of the method body.
    - **ForceOpen()**: Add `this.EnsureInitialized();` to the top of the method body.
    - **Open()**: Add `this.EnsureInitialized();` to the top of the method body.
-6. Click **File -> Save Module...** and save the DLL to `out/Assembly-CSharp.dll`.
+6. Click **File -> Save Module...** and save the DLL to `.../Bendy and the Ink Machine/Bendy and the Ink Machine_Data/Managed/Assembly-CSharp.dll`.
+
+You can also do this with the dnSpy.Console.exe, but then you know what you're doing anyways.  
+Also the above steps may not include all fixes in the future if I make more fixes, so just use the latest release if you have no idea.

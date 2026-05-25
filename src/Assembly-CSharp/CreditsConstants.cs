@@ -1,0 +1,20 @@
+public static class CreditsConstants
+{
+	public static string[] CHAPTER_TWO_PATREON_SUPPORTERS = new string[97]
+	{
+		"Sviitayh", "Clanrat", "Liam Martin", "Adam Coleman", "omega supreme", "armenmihai", "Artro kazoo", "Jason Curtis", "Tiffany Bliss", "Alice Doll",
+		"William da Silva Martins", "Ray Avid Lebon", "Shawnee Lee", "vicente", "Max Green", "Trina Merkel", "Anaidon", "NDAJbnajkfbka", "Miika vuorimaki", "SuperRadiations",
+		"Angry Brothers Gaming", "LucasArydes16", "GreenRook", "Andrea Roma", "Purpurwoelfin", "Tori Gasca", "Couragendures", "Patricia Garcia", "ImaginateKate", "DeanoSauruz",
+		"Talomations", "QuestionedTurkey", "Cyboy", "Danivider Gaming", "Holly Jill Lynn Fowler", "Nova Green", "Secret Heritage", "Caitlyn Guettler", "J7084", "Cynical_Retrospect",
+		"Banzaigamer1", "KeenPhilosopher", "Firederman", "Razmakai", "TailsThePone", "Demn Seahorse", "Scott Nelson", "Tyler Peterman", "Backslash Network", "Andrew P. Holt",
+		"Aida AlGadhi", "Mike", "Ally Barton", "Kiana C.", "XxBonnie101xX", "Amber Moragne", "Sandie Hultgren", "Sandra", "Kit-Cat", "Lauren Wilson",
+		"Erica Noemi Montes", "MxBones", "SirInkWell", "E.A.C.A.", "Nicholas Standridge", "zen dor-colley", "DaniSpooks", "Giovanny Gomez", "Monotone Inkwell", "Julia Marjanen",
+		"Clemente Mijares", "Rootbeer Float Productions", "Peyton Rawls", "Sadie M Zepeda", "Liberatorgamer", "Grant Montoya", "KnightSlayer115", "BlinderTheRabbit", "Berzerk Studio", "evan parillo",
+		"Lisa", "Spencer Pruitt", "Benjamin D. Smith", "SavDraws", "AlexGomez", "Adamhoman", "Androlsey", "Zakeri Cantu", "gumption", "EthGoesBOOM",
+		"Brandon Verhasselt", "Bobby van Wordragen", "Oakydeer", "TOCCL", "Papajoshh", "John Madrak", "Chloe Eves"
+	};
+
+	public static string[] VOICE_CAST = new string[3] { "Aaron Landon", "theMeatly", "Alanna Linayre" };
+
+	public static string[] CHAPTER_TWO_FAN_ART_WINNERS = new string[3] { "Katie Guinn - Train Trouble", "Mayuko Kawashima (Maxinkly) - Bendy Expressions", "Poppy May - Sing in the Ink" };
+}

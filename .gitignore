@@ -1,0 +1,20 @@
+# Ignore compiled output
+*.dll
+
+# Ignore log files
+compile.log
+out.txt
+
+# Ignore IDE specific files
+.vs/
+*.suo
+*.user
+*.sln
+*.csproj
+
+# Ignore decompilation tools and their binaries
+tools/
+
+# But track reference assemblies
+!References/
+!References/**/*.dll

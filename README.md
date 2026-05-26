@@ -1,4 +1,6 @@
-# Smooth Bendy Mod - with MixingFlow fixes
+# Smooth Bendy Mod - with MixingFlow's fixes
+This mod is made by jrgray93, I only want to make some fixes myself, as it takes a while to find issues alone.
+Would be cool if the original mod got a GitHub Repo itself :D
 
 ## Installation
 Just go to the Releases tab on the right and download the DLLs and replace the DLLs in your game's directory at  

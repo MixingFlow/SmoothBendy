@@ -432,14 +432,14 @@ public class GameMenuController : AbstractGameMenuController
 		m_CurrentMenu = PauseMenu.OPTIONS;
 		m_OptionsMenuController = GameManager.Instance.UIManager.Show<OptionsMenuController>("UI/Menus/OptionsMenuController", "PAUSE");
 		m_OptionsMenuController.OnPlayOutComplete += HandleOptionsMenuControllerOnPlayOutComplete;
-		((Component)m_Visuals).gameObject.SetActive(false);
+		base.gameObject.SetActive(false);
 	}
 
 	private void HandleOptionsMenuControllerOnPlayOutComplete(object sender, EventArgs e)
 	{
 		m_OptionsMenuController.OnPlayOutComplete -= HandleOptionsMenuControllerOnPlayOutComplete;
 		m_OptionsMenuController = null;
-		((Component)m_Visuals).gameObject.SetActive(true);
+		base.gameObject.SetActive(true);
 		m_CurrentMenu = PauseMenu.PAUSE;
 	}
 
